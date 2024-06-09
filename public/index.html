@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="/insert">
+        <input type="text" name="id" placeholder="Id" required>
+        <br>
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        <input type="text" name="age" placeholder="Age">
+        <br>
+        <button type="submit">Insert</button>
+    </form>
+    <br>
+    <br>
+    <form method="get" action="/delete">
+        <input type="text" name="id" placeholder="Id">
+        <br>
+        <button type="submit">Delete</button>
+    </form>
+    <br>
+    <br>
+    <form method="get" action="/update">
+        <input type="text" name="id" placeholder="Id" required>
+        <br>
+        <input type="text" name="name" placeholder="Name">
+        <br>
+        <input type="text" name="age" placeholder="Age">
+        <br>
+        <button type="submit">Update</button>
+    </form>
+    <br>
+    <br>
+    <form method="get" action="/get">
+        <input type="text" name="id" placeholder="Id">
+        <br>
+        <button type="submit">Get</button>
+    </form>
+</body>
+</html>
